@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Conceptos</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid rgb(255, 255, 255);
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #8B0000;
+            color: white;
+        }
+        
+        .concepto {
+            background-color: #8B0000;
+            color: white;
+        }
+        .total {
+            background-color: #8B0000;
+            color: white;
+        }
+        .row-blue {
+            background-color: #5700db;
+            color: white;
+        }
+        .rectangulo {
+            padding: 5%;
+            border:#5700db 5px solid;
+            margin-top: 5%;
+            background-color: cadetblue;
+            outline: solid red;
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>CONCEPTO</th>
+            <th>PRIMER SEMESTRE</th>
+            <th>SEGUNDO SEMESTRE</th>
+            <th>TOTAL</th>
+        </tr>
+        <tr class="row-blue">
+            <td>Alimentación</td>
+            <td>1500</td>
+            <td>1750</td>
+            <td>3250</td>
+        </tr>
+        <tr>
+            <td>Tecnología</td>
+            <td>1500</td>
+            <td>1750</td>
+            <td>3250</td>
+        </tr>
+        <tr class="row-blue">
+            <td>Deporte</td>
+            <td>1500</td>
+            <td>1750</td>
+            <td>3250</td>
+        </tr>
+        <tr>
+            <td>Calzado</td>
+            <td>1500</td>
+            <td>1750</td>
+            <td>3250</td>
+        </tr>
+        <tr class="row-blue">
+            <td>Viajes</td>
+            <td>1500</td>
+            <td>1750</td>
+            <td>3250</td>
+        </tr>
+        <tr>
+            <td>Papelería</td>
+            <td>1500</td>
+            <td>1750</td>
+            <td>3250</td>
+        </tr>
+        <tr class="total">
+            <td>TOTAL</td>
+            <td>0000</td>
+            <td>0000</td>
+            <td>0000</td>
+        </tr>
+    </table>
+    <svg  class="rectangulo" width="500" height="400" > 
+
+        <rect width="200" height="100"/>
+        
+        </svg>
+</body>
+</html>
